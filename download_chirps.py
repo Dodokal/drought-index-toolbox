@@ -1,20 +1,5 @@
 """
-download_chirps.py -- fetch CHIRPS v2.0 *official monthly* rainfall and clip
-it to the Dire Dawa - Harar - Jijiga corridor.
-
-This is the recommended route: you get the real monthly product with the
-original file naming, which DroughtIndexToolbox.pyt parses out of the box.
-
-Run it inside the ArcGIS Pro Python so arcpy can do the clipping, e.g.:
-
-  "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3\\python.exe" download_chirps.py
-
-(Or open the Python window in Pro and run it from there.)
-
-If a download fails halfway, just run the script again -- it skips anything
-already on disk.
-
-Kalid Hassen -- data prep for the drought toolbox.
+Kalid Hassen Yasin -- data prep for the drought toolbox.
 """
 
 import os
