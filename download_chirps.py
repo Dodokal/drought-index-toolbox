@@ -7,7 +7,7 @@ import gzip
 import shutil
 import urllib.request
 
-# ---------------- settings: edit these four lines ----------------
+# ---------------- settings: edit these four lines if you want to customize ----------------
 YEARS      = range(1981, 2026)                 # full record for a solid fit
 RAW_DIR    = r"C:\drought\chirps_raw"          # full-Africa tifs land here
 CLIP_DIR   = r"C:\drought\chirps"              # clipped tifs -> feed tool 01
