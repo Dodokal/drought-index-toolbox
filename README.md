@@ -6,11 +6,11 @@ The problem it solves: raw rainfall numbers don't tell you much on their own. 40
 
 ## What's in here
 
-**`DroughtIndexToolbox.pyt`** — three tools:
+**`DroughtIndexToolbox.pyt`**  three tools:
 
-- **01 SPI Calculator** — monthly rainfall in, SPI rasters out (1, 3, 6 or 12-month)
-- **02 Drought Classifier** — SPI into the seven standard severity classes
-- **03 Shortage Hotspots** — how often each pixel has sat in drought across the whole record
+- **01 SPI Calculator** monthly rainfall in, SPI rasters out (1, 3, 6 or 12-month)
+- **02 Drought Classifier** SPI into the seven standard severity classes
+- **03 Shortage Hotspots** how often each pixel has sat in drought across the whole record
 
 **`download_chirps.py`** — pulls CHIRPS monthly rainfall and clips it to your study box, so you're not sitting on 500 Africa-wide GeoTIFFs.
 
@@ -19,6 +19,8 @@ The problem it solves: raw rainfall numbers don't tell you much on their own. 40
 ```
 python download_chirps.py
 ```
+The data is also available at https://doi.org/10.5281/zenodo.22051163
+
 
 Edit the folders and the bounding box at the top first. It skips files it already has, so if it dies halfway through 1994 just run it again.
 
